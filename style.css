@@ -1,0 +1,214 @@
+body {
+    height: calc(300vh);
+    margin: 0;
+}
+
+div {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Alice', serif;  
+    font-size: 6vh;
+    text-align: center;
+    margin: 0;
+    align-content: center;
+    padding-top: 70px;
+}
+
+h2 {
+    font-family: 'Alice', serif;  
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 0;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5vh;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 0;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5vh;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 50px;
+        z-index: 1;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+      display: block;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-family: 'Raleway';
+      color: inherit;
+    }
+    
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-top: 50px;
+        margin-top: -50px;
+    }
+    
+    #pic-me {
+        width: 40vh;
+        align-self: center;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+    #codex-section {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        padding-top: 0;
+        justify-content: space-around;
+        justify-items: center;
+    }
+
+    .codex-heading {
+        grid-column: span 5;
+        grid-row: 1;
+    }
+    
+    
+    
+    #myname {
+        padding-top: calc(50px + 5vh);
+        font-size: 12.5vh;
+        font-family: 'Alice', serif;  
+        text-align: center;
+        margin: 0;
+        
+    }
+    #me-text {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        line-height: 1.5;
+        padding-bottom: 5vh;
+        text-align: center;
+        font-style: italic;
+        margin: 0;
+    }
+    
+    #codex-description {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        line-height: 1.5;
+        text-align: justify;
+        grid-column: span 5;
+        grid-row: 2;
+
+    }
+    
+    .project {
+        grid-column: span 1;
+        grid-row: 3;
+    }
+
+    .project img {
+        width: 15vw;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .project h2 {
+        width: 15vw;
+    }
+    
+    
+    
+    
+    
+    .bitpic {
+        width: 100%;
+        filter: grayscale(100%);
+        z-index: 0;
+    }
+    
+    #bobpics {
+        z-index: -1;
+        justify-content: center;
+        display: grid;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+        grid-template-columns: repeat(4,17.5vw);
+        column-gap: 5vw;
+        row-gap: 5vh;
+        
+    }
+    
+/*COLORS*/
+    .darkgreen-background {
+        background-color: #21452b;
+    }
+    
+    .darkgreen {
+        color: #21452b;
+    }
+    
+    .bone-background {
+        background-color:#E6E5DD;
+    }
+    
+    .bone {
+        color:#E6E5DD;
+    }
+    
+    .darkgrey-background {
+        background-color: #3d4341;
+    }
+    
+    .darkgrey {
+        color: #3d4341;
+    }
+    
+    .lightgreen-background {
+        background-color: #bfd9c6;
+    }
+    
+    .lightgreen {
+        color: #bfd9c6;
+    }
+    
+    .pink-background {
+        background-color: #A95765;
+    }
+    
+    .pink {
+        color: #A95765;
+    }
+    
+    .lightpink-background {
+        background-color: #fde7ea;
+    }
+    
+    .lightpink {
+        color: #fde7ea;
+    }
