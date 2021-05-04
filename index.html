@@ -1,74 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Raleway:ital@0;1&display=swap" rel="stylesheet">
-    <title>Clara Coetzee - Portfolio</title>
-</head>
-<body>
-    <ul class="darkgrey-background lightpink">
-        <li><a href="#about">About</a></li>
-        <li><a href="#codex-section">codeX Portfolio</a></li>
-        <li><a href="#bits-and-bobs">Bits and Bobs</a></li>
-        <li><a href="#contact">Contact</a></li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400&display=swap" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="nav">
+      <img class="flower" src="flower.svg" />
+      <ul class="menu">
+        <li class="one">About</li>
+        <li class="two">Project codeX</li>
+        <li class="three">Bits 'n Bobs</li>
+        <li class="four">Bookshelf</li>
+        <li class="five">Contact</li>
       </ul>
-    
-    <section class="lightpink-background" id="about">
-        <h3 class="darkgreen" id="myname">Clara Coetzee</h3>
-        <img id="pic-me" src="me.png">
-        <p id="me-text" class="lightpink-background">As a professional I am guided by the principles of experiential learning; experience, reflect, conceptualize and experiment. I am passionate about assisting others and finding novel ways of doing so. My creative and analytical problem solving have been a great asset in my career journey. </p>
-    </section>
+    </div>
 
-    <section id="codex-section" class="bone-background">
-    <h1 class="pink codex-heading">Project codeX Portfolio</h1>
-    <p id="codex-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <div class="project">
-            <a href="https://clarababette.github.io/greetings/"><img src="greetingd-screenshot.png"></a>
-            <h2>Greeting Widget Project</h2>
-            </div> 
-        <div class="project">
-            <a href="https://clarababette.github.io/dom-intro/tests/bill-tests.html"><img src="bill-test-screenshot.png"></a>
-            <h2>Unit Testing DOM Widget Project</h2>
-            </div> 
-        <div class="project"><a href="https://clarababette.github.io/dom-intro/"><img src="bill-screenshot.png"></a>
-            <h2>DOM Intro Widget Project</h2>
-            </div>
-        <div class="project"><a href="https://clarababette.github.io/bootcamp-tests/"><img src="tdd-screenshot.png"></a>
-            <h2>TDD Project</h2>
-            </div>
-        <div class="project"><a href="https://clarababette.github.io/basic-webpage/"><img src="basic-webpage-screenshot.png"></a>
-            <h2>Basic Webpage Project</h2>
-            </div>
-        
-  
-    </section>
-    
-    <section id="bits-and-bobs" class="lightgreen-background">
-        <h1 class="darkgrey">Bits and Bobs</h1>
-        <h4>some analogue objects I've made</h4>
-        <div id="bobpics">
-            <img class="bitpic" src="bit-and-bobs1.png">
-            <img class="bitpic" src="bit-and-bobs1.png">
-            <img class="bitpic" src="bit-and-bobs1.png">
-            <img class="bitpic" src="bit-and-bobs1.png">
-            <img class="bitpic" src="bit-and-bobs1.png">
-            <img class="bitpic" src="bit-and-bobs1.png">
-            <img class="bitpic" src="bit-and-bobs1.png">
-            <img class="bitpic" src="bit-and-bobs1.png">
+    <div class="main">
+      <h1 id="my-name">Clara Coetzee</h1>
+      <hr />
+      <div class="about-text">
+        <p>Hi there!</p>
+        <p>I'm Clara; web developer in the making and constant creator. After working as in the English School programme of the Scalabrini Centre of Cape Town, I decided to pursue a new career direction. I am currently developing my programme skills at Project codeX in Cape Town.</p>
+        <p>I am guided, personally and professionally, by the principles of experiential learning: experience, reflect, conceptualize and experiment.</p>
+        <p>Want to know more?</p>
+        <button class="message-btn">Pop me message!</button>
+      </div>
+      <img class="about-img" src="me.JPG" />
+      <hr />
+      <h2>Project codeX Portfolio</h2>
+      <h3 class="front-end-projects">Front end Projects</h3>
+      <ul class="projects">
+        <li><a href="https://clarababette.github.io/matching-days/">Matching Days</a></li>
+        <li><a href="https://clarababette.github.io/registration_numbers/">Registration Numbers</a></li>
+        <li><a href="https://clarababette.github.io/greetings/">Greetings</a></li>
+        <li><a href="https://clarababette.github.io/dom-intro/">Phone Bills</a></li>
+        <li><a href="https://clarababette.github.io/basic-webpage/">Basic Webpage</a></li>
+      </ul>
+      <hr />
+      <h2>Bits 'n Bobs</h2>
+      <img class="bb-pic" id="bb1" src="bits-n-bobs/bb1.png" />
+      <img class="bb-pic" id="bb2" src="bits-n-bobs/bb2.png" />
+      <img class="bb-pic" id="bb3" src="bits-n-bobs/bb3.png" />
+      <img class="bb-pic" id="bb4" src="bits-n-bobs/bb4.png" />
+      <img class="bb-pic" id="bb5" src="bits-n-bobs/bb5.png" />
+      <img class="bb-pic" id="bb6" src="bits-n-bobs/bb6.png" />
+      <img class="bb-pic" id="bb7" src="bits-n-bobs/bb7.png" />
+      <img class="bb-pic" id="bb8" src="bits-n-bobs/bb8.png" />
+      <!-- <img class="bb-pic" id="bb9" src="bits-n-bobs/bb9.jpg" /> -->
+      <hr />
+      <h2>Bookshelf</h2>
+      <div class="book" id="up-next">
+        <img class="book-pic" src="books/essentialism.jpeg" />
+        <div>Up next</div>
+      </div>
+      <div class="book" id="book-now">
+        <img class="book-pic" src="books/mass_movements.jpeg" />
+        <div>Currently reading</div>
+      </div>
+      <div class="book" id="book-read1">
+        <img class="book-pic" src="books/the_institute.jpeg" />
+        <div class="book-review">
+          <img src="books/flower-small.svg" />
+          <img src="books/flower-small.svg" />
+          <img src="books/flower-small.svg" />
+          <img src="books/flower-small.svg" />
+          <img class="missed" src="books/flower-small.svg" />
         </div>
-    </section>
-
-    <section id=contact class="pink-background">
-        <h1 class="bone">Say Hello</h1>
-    </section>
-    
-
-
-    
-        
-</body>
+      </div>
+    </div>
+  </body>
 </html>
